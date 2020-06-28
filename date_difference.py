@@ -23,6 +23,8 @@ def difference(date, date0 = date0):
         for n in range(date[2]+1):
             if (n % 4 == 0 and n % 100 != 0) or (n % 400 == 0):
                 counter += 1
+        if ((date[2] % 4 == 0 and date[2] % 100 != 0) or (date[2] % 400 == 0)) and (date[1] < 3):
+            counter -= 1
         return counter
 
 
