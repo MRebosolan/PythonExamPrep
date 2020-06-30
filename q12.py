@@ -1,5 +1,5 @@
 import matplotlib as mpl
-mpl.use('Qt5Agg')
+#mpl.use('Qt5Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -58,7 +58,7 @@ def findroots(p):
         prec = ym
     # Return the final x-coordinate of the root of f(x) - g(x)
     return m
-
+print(findroots(10))
 ###############
 # Question 12c
 ###############

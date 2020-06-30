@@ -31,5 +31,4 @@ def bisection(p):
         prec = ym
     return m
 
-print(bisection(10))
 
